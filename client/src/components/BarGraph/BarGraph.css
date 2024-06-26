@@ -1,0 +1,77 @@
+.bar-graph-container {
+  display: flex;
+  align-items: flex-end;
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  
+  margin: 10px;
+}
+.bar-graph-container :hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 5px hsl(0, 0%, 46%);
+}
+
+.y-axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 300px; /* Adjust height to match max height of bars */
+  padding-right: 10px;
+}
+
+.tick {
+  font-size: 12px;
+}
+
+.bars {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 300px; /* Adjust height to match max height of bars */
+}
+
+.bar {
+  width: 50px;
+  position: relative;
+  text-align: center;
+  margin: 0 5px;
+  border: 1px solid grey;
+  border-radius: 5px 5px 0 0;
+  transition: height 0.3s ease;
+}
+
+.bar-label {
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  font-size: 12px;
+  white-space: nowrap;
+  color: #000;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.legend-text {
+  font-size: 14px;
+}

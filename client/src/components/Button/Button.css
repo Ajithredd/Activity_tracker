@@ -1,0 +1,70 @@
+.custom-button {
+    position: relative;
+    border: 2px solid transparent;
+    transition: border-color 500ms;
+    cursor: pointer;
+    color: #FFFFFF; /* Text color */
+    overflow: hidden;
+    height: 3.5rem; /* Adjust height as needed */
+    width: 10rem; /* Adjust width as needed */
+    border-radius: 0.375rem; /* Rounded corners */
+    background-color: #27e1c5; /* Background color */
+    padding: 0.5rem; /* Padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; /* Font weight */
+    margin-top:15px; 
+  }
+  
+  .custom-button:hover {
+    border-color: hsl(172, 94%, 68%); /* Border color on hover */
+  }
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    transition: transform 500ms ease-in-out; /* Transition transform property */
+  }
+  
+  .custom-button:hover .circle {
+    transform: scale(1.5); /* Scale up on hover */
+  }
+  
+  .circle-1 {
+    width: 12rem; /* Diameter of circle 1 */
+    height: 12rem; /* Diameter of circle 1 */
+    background-color: hsl(170, 98%, 67%); /* Circle 1 color */
+  }
+  
+  .circle-2 {
+    width: 10rem; /* Diameter of circle 2 */
+    height: 10rem; /* Diameter of circle 2 */
+    background-color: #3bf6c4; /* Circle 2 color */
+  }
+  
+  .circle-3 {
+    width: 8rem; /* Diameter of circle 3 */
+    height: 8rem; /* Diameter of circle 3 */
+    background-color: #60fac9; /* Circle 3 color */
+  }
+  
+  .circle-4 {
+    width: 6rem; /* Diameter of circle 4 */
+    height: 6rem; /* Diameter of circle 4 */
+    background-color: #93fdd8; /* Circle 4 color */
+  }
+  
+  .circle-5 {
+    width: 4rem; /* Diameter of circle 5 */
+    height: 4rem; /* Diameter of circle 5 */
+    background-color: #a5fcd2; /* Circle 5 color */
+  }
+  
+  .button-text {
+    color:#000409;
+    position: relative;
+    z-index: 1;
+    font-size: 1.2rem; /* Adjust font size */
+  }
+  

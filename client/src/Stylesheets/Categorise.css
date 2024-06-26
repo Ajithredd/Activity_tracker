@@ -1,0 +1,27 @@
+
+.mainbdy{
+    margin-left: 280px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.an-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   background-color: white;
+   padding: 20px;
+   padding-top: 10px;
+   width: 1000px;
+   height: 100%;
+   border-radius: 10px;
+   margin: 20px;
+}
+.list-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}

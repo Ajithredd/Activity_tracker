@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Activity Logger",
+    "version": "1.0",
+    "description": "Logs user activity and sends it to the backend",
+    "permissions": [
+      "tabs",
+      "storage",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "http://localhost:5000/"
+    ]
+  }
+  
